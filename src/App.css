@@ -1,0 +1,44 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  flex-flow: column;
+  font-family: sans-serif;
+}
+
+.App__nav {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  padding: 24px;
+  background: #333;
+  color: #fff;
+}
+
+.App__nav a {
+  margin-right: 18px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.App__nav a:hover {
+  color: #900;
+}
+
+.page {
+  padding: 0 24px;
+}
+
+.App__children {
+  position: relative;
+  margin: 24px;
+}
+
+.cont-bg{
+  background: pink;
+  width: 50%;
+  height: 500px;
+}
